@@ -12,6 +12,7 @@ public class First {
 		Because nums[0] + nums[1] = 2 + 7 = 9,
 		return [0, 1].
 	 * @param args
+	 * @author zy
 	 */
 	public static void main(String[] args) {
 		int [] num = {2, 7, 11, 15};

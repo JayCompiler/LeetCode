@@ -19,7 +19,10 @@ public class One0Five {
 		TreeNode reS = buildTree(preorder, inorder);
 		print(reS);
 	}
-
+	/**
+	 * print Tree
+	 * @param reS
+	 */
 	private static void print(TreeNode reS) {
 		if (reS == null) {
 			return;
@@ -33,7 +36,12 @@ public class One0Five {
 		}
 
 	}
-
+	/**
+	 * construct the tree using preorder and inorder
+	 * @param preorder
+	 * @param inorder
+	 * @return
+	 */
 	public static TreeNode buildTree(int[] preorder, int[] inorder) {
 		if (preorder.length == 0) {
 			return null;

@@ -24,9 +24,6 @@ public class One2Four {
 	}
 
 	public static int maxPathSum(TreeNode root) {
-		// if (root == null) {
-		// return 0;
-		// }
 		help(root);
 		return max;
 	}
@@ -41,11 +38,12 @@ public class One2Four {
 		 */
 		int left = Math.max(help(root.left), 0);
 		int right = Math.max(help(root.right), 0);
-		//max is very important , reserve the global maximum value,if current node is the root
-		//which attribute to maximum
+		/*max is very important , reserve the global maximum value,
+		if current node is the root
+		which attribute to maximum*/
 		max = Math.max(max, left + right + root.val);
-		// amazing idea:if maximum go through the root,
-		//it can't go througt both the subnode's left and right
+		/* amazing idea:if maximum go through the root,
+		it can't go througt both the subnode's left and right*/
 		return Math.max(left, right) + root.val;
 	}
 }

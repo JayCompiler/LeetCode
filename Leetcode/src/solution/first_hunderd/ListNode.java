@@ -1,4 +1,4 @@
-package solution.first_fifty;
+package solution.first_hunderd;
 
 public class ListNode {
 	 int val;

@@ -1,4 +1,4 @@
-package solution.first_fifty;
+package solution.first_hunderd;
 /**
  * Given a string, find the length of the longest substring without repeating characters.
 

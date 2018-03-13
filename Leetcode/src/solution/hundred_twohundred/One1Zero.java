@@ -33,8 +33,6 @@ public class One1Zero {
 		treeNode.right=new TreeNode(0);
 		treeNode.left=new TreeNode(3);
 		treeNode.left.left=new TreeNode(3);
-//		treeNode.left.left.left=new TreeNode(3);
-//		treeNode.left.left.left.left=new TreeNode(3);
 		System.out.println(isBalanced(treeNode));
 		System.out.println(height(treeNode));
 
